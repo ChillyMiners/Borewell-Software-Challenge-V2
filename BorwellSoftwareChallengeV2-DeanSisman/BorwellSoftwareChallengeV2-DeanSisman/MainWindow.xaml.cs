@@ -107,9 +107,9 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
         // Prints the calculated values from the Room object to the GUI
         private void PrintResults(Room room)
         {
-            Area.Text = room.Area.ToString();
-            Volume.Text = room.Volume.ToString();
-            PaintReq.Text = room.PaintReq.ToString();
+            Area.Text = $"{room.Area.ToString()}m²";
+            Volume.Text = $"{room.Volume.ToString()}m³";
+            PaintReq.Text = $"{room.PaintReq.ToString()}l";
         }
     }
 }
