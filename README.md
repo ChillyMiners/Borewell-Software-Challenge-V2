@@ -1,4 +1,4 @@
-# Borewell-Software-Challenge-V2
+# Borwell-Software-Challenge-V2
 The second edition of the paint calculator for Borwell, implementing the suggested changes, including a GUI
 
 To build and run the program, open the .sln file in /BorwellSoftwareChallengeV2-DeanSisman/ using Visual Studio and press Ctrl-F5
