@@ -16,37 +16,33 @@ using System.Windows.Shapes;
 namespace BorwellSoftwareChallengeV2_DeanSisman
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Takes input from GUI, creates instance of Room using inputted values, then prints results to GUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private float length; // Value inputted by user, the length of the room
-        private float width;  // Value inputted by user, the width of the room
-        private float height; // Value inputted by user, the height of the room
-
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        // The main method which the logic runs off, does the following:
-        // 1 - Calls the methods which get the values for length, width & height, inputted by the user.
-        // 2 - Calls the method which checks these values for validity.
-        // 3 - Calls the methods which calculate the values for area, volume and paint required & set 
-        //     the text boxes to display these values.
+        // The main method which the logic runs off:
+        // 1 - Calls methods to get values for width, length and height
+        // 2 - Calls method to check for invalid inputs
+        // 3 - Creates instance of Room using inputted values
+        // 4 - Calls method to print results to console
         private void btn_Calculate_Click(object sender, RoutedEventArgs e)
         {
-            width = GetWidth();
-            length = GetLength();
-            height = GetHeight();
+            float width = GetWidth();
+            float length = GetLength();
+            float height = GetHeight();
 
             if (!CheckForBadInput(width, length, height))
             {
-                Area.Text = CalculateArea(width, length);
-                Volume.Text = CalculateVolume(width, length, height);
-                PaintReq.Text = CalculatePaintReq(width, length, height);
+                Room room = new Room(width, length, height);
+                PrintResults(room);
             }
         }
+
 
         // Returns the text entered into Width by the user as a float, returns 0 if invalid input given
         private float GetWidth()
@@ -108,27 +104,12 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
             }
         }
 
-        // Calculates the area of the room and returns value as string
-        private string CalculateArea(float w, float l)
+        // Prints the calculated values from the Room object to the GUI
+        private void PrintResults(Room room)
         {
-            float a = w * l;
-            return a.ToString();
-        }
-
-        // Calculates the volume of the room and returns value as string
-        private string CalculateVolume(float w, float l, float h)
-        {
-            float v = w * l * h;
-            return v.ToString();
-        }
-
-        // Calculates the amount of paint required and returns value as string
-        private string CalculatePaintReq(float w, float l, float h)
-        {
-            float wallArea = (w * h * 2) + (l * h * 2);
-            float metresSquaredPerLitre = 10;
-            float pr = wallArea / metresSquaredPerLitre;
-            return pr.ToString();
+            Area.Text = room.Area.ToString();
+            Volume.Text = room.Volume.ToString();
+            PaintReq.Text = room.PaintReq.ToString();
         }
     }
 }
