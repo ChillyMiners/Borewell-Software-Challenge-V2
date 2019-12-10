@@ -7,4 +7,4 @@ NOTABLE CHANGES OVER ORIGINAL:
 1 - Improved encapsulation by using parameter passing and return values to assign values to data members
 2 - Removed all recursive method calling
 3 - Implemented a GUI using WPF
-4 - Implemented additional input validation : checks for negative or excessively high input values
+4 - Implemented additional input validation which checks for negative or excessively high input values
