@@ -20,9 +20,6 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
     /// </summary>
     public partial class MainWindow : Window
     {
-        // Reference to the room, which stores all relevant data (width, height, length, area, volume, paint req)
-        private Room room;
-
         public MainWindow()
         {
             InitializeComponent();
@@ -41,7 +38,7 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
 
             if (!CheckForBadInput(width, length, height))
             {
-                room = new Room(width, length, height);
+                Room room = new Room(width, length, height);
                 PrintResults(room);
             }
         }
