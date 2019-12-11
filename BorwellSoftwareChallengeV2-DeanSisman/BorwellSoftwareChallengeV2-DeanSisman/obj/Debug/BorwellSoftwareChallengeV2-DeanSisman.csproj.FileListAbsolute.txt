@@ -26,3 +26,17 @@ C:\Users\dean-\OneDrive\Documents\GitHub\Borewell-Software-Challenge-V2\BorwellS
 C:\Users\dean-\OneDrive\Documents\GitHub\Borewell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.csproj.GenerateResource.cache
 C:\Users\dean-\OneDrive\Documents\GitHub\Borewell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.exe
 C:\Users\dean-\OneDrive\Documents\GitHub\Borewell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.pdb
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\bin\Debug\BorwellSoftwareChallengeV2-DeanSisman.exe.config
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\bin\Debug\BorwellSoftwareChallengeV2-DeanSisman.exe
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\bin\Debug\BorwellSoftwareChallengeV2-DeanSisman.pdb
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.csprojAssemblyReference.cache
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\MainWindow.g.cs
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\App.g.cs
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman_MarkupCompile.cache
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman_MarkupCompile.lref
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\MainWindow.baml
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.g.resources
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2_DeanSisman.Properties.Resources.resources
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.csproj.GenerateResource.cache
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.exe
+C:\Users\dean-\OneDrive\Documents\GitHub\Borwell-Software-Challenge-V2\BorwellSoftwareChallengeV2-DeanSisman\BorwellSoftwareChallengeV2-DeanSisman\obj\Debug\BorwellSoftwareChallengeV2-DeanSisman.pdb

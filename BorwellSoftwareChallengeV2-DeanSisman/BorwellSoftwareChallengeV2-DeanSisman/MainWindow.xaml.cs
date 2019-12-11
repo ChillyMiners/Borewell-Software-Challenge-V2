@@ -20,6 +20,9 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Reference to the room, which stores all relevant data (width, height, length, area, volume, paint req)
+        private Room room;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -29,7 +32,7 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
         // 1 - Calls methods to get values for width, length and height
         // 2 - Calls method to check for invalid inputs
         // 3 - Creates instance of Room using inputted values
-        // 4 - Calls method to print results to console
+        // 4 - Calls method to print room area, volume and paint req to console
         private void btn_Calculate_Click(object sender, RoutedEventArgs e)
         {
             float width = GetWidth();
@@ -38,7 +41,7 @@ namespace BorwellSoftwareChallengeV2_DeanSisman
 
             if (!CheckForBadInput(width, length, height))
             {
-                Room room = new Room(width, length, height);
+                room = new Room(width, length, height);
                 PrintResults(room);
             }
         }
